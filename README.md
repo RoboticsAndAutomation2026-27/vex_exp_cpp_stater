@@ -1,8 +1,10 @@
-# VEX EXP C++ Sample Programs
+# VEX EXP C++ Programming Modules
 
 > **DRAFT for pilot.** These programs have been syntax-checked but not yet run on a real EXP Brain. If something does not work, tell your teacher.
 
-These are the sample programs for the VEX EXP C++ modules in Robotics & Automation. Each one is a complete, working program. **You do not type them in. You copy them into your own VS Code project and run them.**
+These are the sample programs for the VEX EXP C++ modules in Robotics & Automation. Each one is a complete, working program. **You do not type them in. You copy them from the `samples` folder into your own VS Code project and run them.**
+
+> **Use only the `samples` folder.** This repository also contains a generated VEX project (`src`, `include`, `makefile`). **Do not build or work in it.** You make your own project in Step 2.
 
 ## What you need
 
@@ -30,7 +32,7 @@ Do one of these:
 
 1. Open VS Code.
 2. Use the VEX Robotics extension to start a **New Project**. Choose **EXP**, then **C++**, then the **EXP Empty Template Project**.
-3. Name it with **no spaces**, for example `RoboticsEXP`. Remember where it is saved.
+3. Name it with **no spaces**, for example `RoboticsEXP`. Remember where it is saved. Keep it **outside** the downloaded repository folder.
 
 You only do this once. You will reuse the same project for every sample.
 
@@ -38,8 +40,8 @@ You only do this once. You will reuse the same project for every sample.
 
 For each sample, do this:
 
-1. Open the sample `.cpp` file and **select all** (Ctrl+A on Windows, Cmd+A on Mac). **Copy** it.
-2. In your project, open `src/main.cpp`.
+1. Open the sample `.cpp` file from the `samples` folder and **select all** (Ctrl+A on Windows, Cmd+A on Mac). **Copy** it.
+2. In your own project, open `src/main.cpp`.
 3. **Select all** and **paste**. This **replaces** everything that was in `main.cpp`. When you finish, the file should contain only the sample.
 4. **Save** (Ctrl+S or Cmd+S).
 5. With the Brain connected, choose a slot, then **Build** and **Download** using the VEX extension.
@@ -63,6 +65,7 @@ Then, to try the next sample, go back to step 1 and paste over `main.cpp` again.
 | `M0_00b_motor_check.cpp` | 0 Setup check | Motor |
 | `M0_00c_bumper_check.cpp` | 0 Setup check | Bumper |
 | `M1_01_hello_brain.cpp` | 1 First program | Brain only |
+| `M1_02_inertial_variables.cpp` | 1 First program | Brain only (uses its built-in inertial sensor; set it down flat and still at the start) |
 | `M2_02_one_motor.cpp` | 2 Motors | Motor |
 | `M2_03a_repeat_for.cpp` | 2 Motors | Motor |
 | `M2_03b_repeat_while.cpp` | 2 Motors | Motor |
@@ -79,10 +82,11 @@ Your workbook tells you which sample to use and when. Check the comment at the t
 
 | What you see | Things to try |
 | --- | --- |
+| The build says the project name cannot contain whitespace | Your project folder has a space in its name. Rename it without spaces and open it again. |
 | The extension does not show the Brain | Is it turned on? Try another USB cable or port. Some cables only charge. |
-| The build fails | Read the **first** error. Did you copy the whole file and replace everything in `main.cpp`? Was the project created with the VEX extension? |
+| The build fails | Read the **first** error. Did you copy the whole file and replace everything in `main.cpp`? Was the project created with the VEX extension? Does its folder name have a space? |
 | The build works but nothing happens | Did you download to the slot you are running? Did you press **Run**? |
 | The motor does not move | Is the cable fully pushed into **Smart Port 1**? Is the Brain powered on? |
 | A sensor does not respond | Check the cable and the port against the table above. |
 
-Before you ask for help, be ready to say what you did, what you expected, and what happened.
+When you ask for help, be ready to say what you did, what you expected, and what happened.
