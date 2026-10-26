@@ -2,7 +2,7 @@
 
 > **DRAFT for pilot.** These programs have been syntax-checked but not yet run on a real EXP Brain. If something does not work, tell your teacher.
 
-These are the sample programs for the VEX EXP C++ modules in Robotics & Automation. Each one is a complete, working program. **You do not type them in. You copy them from the `samples` folder into your own VS Code project and run them.**
+These are the sample programs for the VEX EXP C++ modules in Robotics & Automation. Each one is a complete, working program. **You do not type them in. You copy them from the `samples` folder into your own VEX EXP VS Code project (replace the contents of main.cpp with the code from here) and run them.**
 
 > **Use only the `samples` folder.** This repository also contains a generated VEX project (`src`, `include`, `makefile`). **Do not build or work in it.** You make your own project in Step 2.
 
