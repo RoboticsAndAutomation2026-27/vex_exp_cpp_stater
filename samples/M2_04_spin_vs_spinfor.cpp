@@ -31,7 +31,7 @@ int main() {
     Brain.Screen.clearScreen();
     Brain.Screen.setCursor(1, 1);
     Brain.Screen.print("B: spinFor");
-    Motor1.spinFor(forward, 2, seconds, 50, percent);
+    Motor1.spinFor(forward, 2.0, seconds, 50, velocityUnits::pct);
     Brain.Screen.newLine();
     Brain.Screen.print("B: after spinFor");
     wait(1, seconds);
@@ -40,7 +40,7 @@ int main() {
     Brain.Screen.clearScreen();
     Brain.Screen.setCursor(1, 1);
     Brain.Screen.print("C: spinFor 1 turn");
-    Motor1.spinFor(forward, 1, turns, 50, percent, false);
+    Motor1.spinFor(forward, 1, turns, 50, velocityUnits::pct, false);
     Brain.Screen.newLine();
     Brain.Screen.print("C: after spinFor");
     wait(3, seconds);

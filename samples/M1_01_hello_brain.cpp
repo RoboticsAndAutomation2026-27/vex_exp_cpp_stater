@@ -28,7 +28,7 @@ int main() {
     Brain.Screen.newLine();
     Brain.Screen.print("Step 3: done");
 
-    // Keeps the program running so the screen stays as it is.
+    // An endless loop that does nothing except wait.
     while (true) {
         wait(100, msec);
     }

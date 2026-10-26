@@ -19,7 +19,7 @@ int main() {
     Brain.Screen.setCursor(1, 1);
     Brain.Screen.print("Hello EXP");
 
-    // Keeps the program running so the message stays on the screen.
+    // An endless loop that does nothing except wait.
     while (true) {
         wait(100, msec);
     }
