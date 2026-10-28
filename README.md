@@ -25,13 +25,13 @@ Do one of these:
 - **Download everything:** on this page, click the green **Code** button, then **Download ZIP**, and unzip it. The programs are in the `samples` folder.
 - **Copy one file:** click the file name in the `samples` folder, then use the **Copy raw file** button (the two overlapping squares). This copies the whole file.
 
-## Step 2: Create your project (once)
+## Step 2: Create your project (once per module)
 
 1. Open VS Code.
 2. Use the VEX Robotics extension to start a **New Project**. Choose **EXP**, then **C++**, then the **EXP Empty Template Project**.
 3. Name it with **no spaces**, for example `RoboticsEXP`. Remember where it is saved. Keep it **outside** the downloaded repository folder.
 
-You only do this once. You will reuse the same project for every sample.
+You only do this once per module. You can create a new project for the next module using the same steps listed above.
 
 ## Step 3: Put a sample into your project
 
